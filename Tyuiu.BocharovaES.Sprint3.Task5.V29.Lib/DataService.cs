@@ -10,7 +10,7 @@ namespace Tyuiu.BocharovaES.Sprint3.Task5.V29.Lib
             {
                 for (int j = startValue2; j <= stopValue2; j++)
                 {
-                    res += ((x / j) + Math.Sin(x));
+                    res = res + ((x *1.0/ j) + Math.Sin(x));
                 }
             }
             return Math.Round(res, 3);
